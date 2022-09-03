@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Ver Hidden
+Plugin Name: WP Ver Hide
 Description: Wordpressのバージョンを秘匿化するプラグイン。
 Author: Yuta SAKURAI
 Version: 0.1

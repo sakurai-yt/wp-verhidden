@@ -1,7 +1,7 @@
-# wp-verhidden
+# wp-verhide
 Hide WordPress Version
 
-Plugin Name: WP Ver Hidden
+Plugin Name: WP Ver Hide
 Plugin URI: https://www.skri.gr.jp
 
 License: GPLv3 or later
