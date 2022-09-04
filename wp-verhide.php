@@ -23,7 +23,7 @@ add_filter( 'script_loader_src', 'remove_cssjs_ver2', 9999 );
 
 require 'update/plugin-update-checker.php';
 $ExampleUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://www.skri.gr.jp/wp-update/wp-verhide.json',
+	'https://www.skri.gr.jp/software/update/wp-verhide.json',
 	__FILE__,
 	'wp-verhide'
 );
