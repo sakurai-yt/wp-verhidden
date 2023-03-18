@@ -13,6 +13,7 @@ if (!defined('ABSPATH')) exit;
 
 remove_action('wp_head', 'wp_generator');
 
+/* バージョン情報を削除 */
 function remove_cssjs_ver2($src)
 {
     if (strpos($src, 'ver='))
@@ -22,6 +23,7 @@ function remove_cssjs_ver2($src)
 add_filter('style_loader_src', 'remove_cssjs_ver2', 9999);
 add_filter('script_loader_src', 'remove_cssjs_ver2', 9999);
 
+/* 自動アップデートを有効化 */
 require 'update/plugin-update-checker.php';
 $ExampleUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://www.skri.gr.jp/software/update/wp-verhide.json',
